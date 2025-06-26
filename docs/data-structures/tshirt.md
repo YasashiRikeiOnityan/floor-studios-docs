@@ -231,8 +231,8 @@
 | attribute_name | type | description |
 | -------------- | ---- | ----------- |
 | contact| Map | 連絡先情報 |
-| billing_address | Map | 請求先住所 |
-| shipping_address | Map | 配送先住所 |
+| billing_infomation | Map | 請求先情報 |
+| shipping_infomation | Map | 配送先情報 |
 
 === "contact"
 
@@ -245,10 +245,10 @@
     }
     ```
 
-=== "billing_address"
+=== "billing_infomation"
 
     ```ts
-    billing_address: {
+    billing_infomation: {
         country: "string",
         state: "string",
         city: "string",
@@ -258,10 +258,10 @@
     }
     ```
 
-=== "shipping_address"
+=== "shipping_infomation"
 
     ```ts
-    shipping_address: {
+    shipping_infomation: {
         country: "string",
         state: "string",
         city: "string",

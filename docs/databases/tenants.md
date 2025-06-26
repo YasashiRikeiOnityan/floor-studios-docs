@@ -7,8 +7,8 @@
 | tenant_name | String | | | テナント名（ブランド名） |
 | user_id | String | | | テナント作成者のID |
 | contact | Map | | | 連絡先情報 |
-| billing_address | Map | | | 請求先住所 |
-| shipping_address | Map | | | 配送先住所 |
+| billing_information | Map | | | 請求先情報 |
+| shipping_infomation | Map | | | 配送先情報 |
 
 ### kind (SK) について
 
